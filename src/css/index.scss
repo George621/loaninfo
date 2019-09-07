@@ -1,0 +1,12 @@
+
+body{
+  background-color: orange;
+}
+.labc{
+  color: red;
+  background-color: gray;
+  font-size: 100px;
+  &-a{
+    color: purple;
+  }
+}
