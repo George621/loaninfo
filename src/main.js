@@ -1,3 +1,9 @@
-import './css/index.scss'
+// import './css/index.scss'
+import React from 'react'
+import ReactDom from 'react-dom'
+import { App } from '../src/component/App.jsx'
 
-console.log(11)
+ReactDom.render(
+    <App />,
+    document.getElementById('root')
+)
