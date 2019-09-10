@@ -1,10 +1,14 @@
 @function v($px) {
-  @return round($px * 10000 / 720) / 10000 * 100vw;
+  @return round($px * 10000 / 1080) / 10000 * 100vw;
 }
 
 
 .index {
+  width: 100%;
   &__banner {
+    width: v(720);
+    height: v(300);
+    background: #000;
     img {
       display: block;
       width  : 100%;

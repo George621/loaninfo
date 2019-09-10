@@ -1,12 +1,13 @@
-
-body{
-  background-color: orange;
+@function v($px) {
+  @return round($px * 10000 / 720) / 10000 * 100vw;
 }
-.labc{
-  color: red;
-  background-color: gray;
-  font-size: 100px;
-  &-a{
-    color: purple;
-  }
+
+@import '../component/Index/index.scss';
+body,#root{
+  width: v(720);
+  overflow: hidden;
+}
+p,ul,li,dl,dd,dt,div,body{
+  padding: 0;
+  margin: 0;
 }
