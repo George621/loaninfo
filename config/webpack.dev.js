@@ -104,11 +104,11 @@ module.exports = {
       hash:true, //为了开发中js有缓存效果，所以加入hash，这样可以有效避免缓存JS
       template:'./src/index.html' // html 模版路径和文件名
     }),
-    new PurifyCSSPlugin({ 
-      //这里配置了一个paths，主要是需找html模板，purifycss根据这个配置会遍历你的文件，查找哪些css被使用了。
-      //使用这个插件必须配合extract-text-webpack-plugin这个插件
-      paths: glob.sync(path.join(__dirname, 'src/*.html')),
-      }),
+    // new PurifyCSSPlugin({ 
+    //   //这里配置了一个paths，主要是需找html模板，purifycss根据这个配置会遍历你的文件，查找哪些css被使用了。
+    //   //使用这个插件必须配合extract-text-webpack-plugin这个插件
+    //   paths: glob.sync(path.join(__dirname, 'src/*.html')),
+    //   }),
   ],
   //配置开发服务功能
   devServer:{
