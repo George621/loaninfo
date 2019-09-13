@@ -9,12 +9,21 @@ export const Index = () => {
         <img src="http://yk.ksdao.com/lfx/sb01/images/banner1.jpg?_=cvds43" alt="" />
       </div>
       <ul class="m_list">
-        <li></li>
+        <li>
+          <img src="../../images/pic1.jpg" alt=""/>
+        </li>
         <li></li>
         <li></li>
       </ul>
       <div className="tips_all">
-
+        <div className="timer">
+          00:00
+        </div>
+        <div className="time-infor">
+          为使用您的提额资格，请
+          <span className="">15分钟</span>
+          内完成申请
+          </div>
       </div>
       <div className="mainform">
 

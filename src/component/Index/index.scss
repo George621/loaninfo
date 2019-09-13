@@ -25,17 +25,37 @@
     background: linear-gradient(to bottom, #3f90e2, #1647e8);
     border-radius: 0 0 v(5) v(5);
     li{
+      border-radius: v(4);
       width: v(100);
       height: v(100);
       background-color: antiquewhite;
     }
   }
   .tips_all{
-    margin: v(10) auto;
+    box-sizing: border-box;
+    margin: v(20) auto;
     height: v(120);
     width: v(700);
     background-color:#ffffff;
     border-radius: v(5);
+    padding: v(20);
+    display: flex;
+    flex-direction: column;
+    justify-content: space-between;
+    align-items: center;
+    .timer{
+      font-size: v(40);
+      color: #108bf1;
+      text-align: center;
+    }
+    .time-infor{
+      text-align: center;
+      font-size: v(24);
+      color: #c2c2c2;
+      span{
+        color: #108bf1;
+      }
+    }
   }
   .mainform{
     width: v(700);
