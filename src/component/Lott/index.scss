@@ -1,0 +1,10 @@
+@function v($px) {
+    @return round($px * 10000 / 720) / 10000 * 100vw;
+  }
+  
+
+.lott{
+    width: v(400);
+    height: v(400);
+    border: v(2) solid Orange;
+}

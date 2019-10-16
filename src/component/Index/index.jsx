@@ -1,6 +1,7 @@
 import React from 'react'
 import './index.scss'
 import { setInterval } from 'timers';
+import { Lott } from '../Lott/index.jsx'
 
 export const Index = () => {
 
@@ -25,6 +26,7 @@ export const Index = () => {
 
   return (
     <div className="index">
+      <Lott />
       <div className="banner">
         <img src="http://yk.ksdao.com/lfx/sb01/images/banner1.jpg?_=cvds43" alt="" />
       </div>
@@ -57,7 +59,7 @@ export const Index = () => {
           </ul>
         </div>
         <div className="item1">
-          <input type="text"/>
+          <input type="text" />
           <div className="sex">
             <div>男</div>
             <div>女</div>
