@@ -7,7 +7,7 @@ const webpack = require('webpack')
 const glob = require('glob');
 
 const website = {
-  publicPath:'http://localhost:8888/'
+  publicPath:'http://0.0.0.0:8888/'
 }
 
 module.exports = {
@@ -115,7 +115,7 @@ module.exports = {
     //设置基本目录结构
     contentBase:path.resolve(__dirname,'../dist'),
     //服务器IP地址， 也可以是localhost 0.0.0.0
-    host:'localhost',
+    host:'0.0.0.0',
     //服务端压缩是否开启
     compress:true,
     hot: true,

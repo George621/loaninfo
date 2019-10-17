@@ -1,7 +1,7 @@
 import React from 'react'
 import './index.scss'
 import lottie from 'lottie-web'
-// import './data.json'
+import animData from './data.json'
 export const Lott = () => {
 
   React.useEffect(() => {
