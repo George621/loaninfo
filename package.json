@@ -47,7 +47,7 @@
     "webpack-dev-server": "^3.8.0"
   },
   "dependencies": {
-    "lottie-web": "^5.5.9",
+    "image-conversion": "^1.1.9",
     "react": "^16.9.0",
     "react-dom": "^16.9.0"
   }
