@@ -5,8 +5,18 @@
 
 .lott{
     width: 100%;
-    height: v(900);
-    border: v(2) solid Orange;
-    background-color: #2c6fe1;
-    transform: translateZ(0);
+    height: v(300);
+    overflow-y: scroll;
+}
+.scrollbox{
+  width: 50%;    
+  border: v(2) solid Orange;
+  margin: v(200) auto;
+
+  li{
+    height: v(90);
+    margin-bottom: v(10);
+    background-color: aqua;
+    list-style: none;
+  }
 }
