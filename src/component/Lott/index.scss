@@ -4,15 +4,14 @@
   
 
 .lott{
-    width: 100%;
-    height: v(300);
-    overflow-y: scroll;
-}
-.scrollbox{
-  width: 50%;    
-  border: v(2) solid Orange;
+  width: 100%;
+  height: v(300);
   margin: v(200) auto;
-
+  border: v(2) solid Orange;
+position: relative;
+}
+.scrollbox{   
+  position: absolute;
   li{
     height: v(90);
     margin-bottom: v(10);
