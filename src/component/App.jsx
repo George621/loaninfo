@@ -5,13 +5,15 @@ import React from 'react'
 
 // import { Gift } from '../component/Gift/index.jsx'
 import {WaterFall} from '../component/WaterFall/index.jsx'
+import {CommonMethod} from '../component/CommonMethod/index.jsx'
 
 
 export const App = () => {
 
   return (
     <div className="app">
-      <WaterFall />
+      <CommonMethod />
+      {/* <WaterFall /> */}
       {/* <Lott /> */}
       {/* <Gift></Gift> */}
     </div>

@@ -9,7 +9,6 @@ const glob = require('glob');
 const website = {
   publicPath:'http://0.0.0.0:8888/'
 }
-
 module.exports = {
   mode:'development',
   //入口文件配置  main.js 入口文件
@@ -18,7 +17,7 @@ module.exports = {
   },
   //出口文件配置
   output:{
-    path:path.resolve(__dirname,'../dist'),
+    path: path.resolve(__dirname,'../dist'),
     filename:'[name].js',
     publicPath:website.publicPath   //publicPath 处理静态文件路径
   },
