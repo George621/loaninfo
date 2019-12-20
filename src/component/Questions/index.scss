@@ -1,0 +1,12 @@
+@function v($px) {
+  @return round($px * 10000 / 720) / 10000 * 100vw;
+}
+.question{
+  padding: v(30);
+}
+.sanjiao{
+  width: 0;
+  height: 0;
+  border: v(20) solid;
+  border-color: orangered transparent transparent transparent;
+}
