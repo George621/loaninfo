@@ -2,20 +2,12 @@
     @return round($px * 10000 / 720) / 10000 * 100vw;
   }
   
-
-.lott{
-  width: 100%;
-  height: v(300);
-  margin: v(200) auto;
-  border: v(2) solid Orange;
-position: relative;
+.contain{
+  width: v(400);
 }
-.scrollbox{   
-  position: absolute;
-  li{
-    height: v(90);
-    margin-bottom: v(10);
-    background-color: aqua;
-    list-style: none;
-  }
+.lott{
+  width: v(400);
+  height: v(400);
+  border-radius: 50%;
+  background: radial-gradient(circle  ,white 50%,purple 10%,Indigo 10%,blue 10%,green 10%,yellow 10%,orange 10%,red 10%)
 }

@@ -1,7 +1,7 @@
 import React from 'react'
 // import { Index } from '../component/Index/index.jsx'
 
-// import { Lott } from '../component/Lott/index.jsx'
+import { Lott } from '../component/Lott/index.jsx'
 
 // import { Gift } from '../component/Gift/index.jsx'
 // import {CanvasComp} from '../component/CanvasComp/index.jsx'
@@ -17,10 +17,10 @@ export const App = () => {
     <div className="app">
       {/* <CommonMethod /> */}
       {/* <WaterFall /> */}
-      {/* <Lott /> */}
+      <Lott />
       {/* <Gift></Gift> */}
       {/* <CanvasComp /> */}
-      <Questions />
+      {/* <Questions /> */}
     </div>
   )
 }
