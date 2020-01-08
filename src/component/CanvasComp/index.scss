@@ -1,0 +1,10 @@
+@function v($px) {
+  @return round($px * 10000 / 720) / 10000 * 100vw;
+}
+
+
+.contain{
+  width: 100%;
+  height: v(500);
+  background-color: indianred;
+}

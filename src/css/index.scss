@@ -1,14 +1,1 @@
-@function v($px) {
-  @return round($px * 10000 / 720) / 10000 * 100vw;
-}
-
-html,body,#root{
-  width: 100vw;
-}
-ul,li{
-  list-style: none;
-}
-p,ul,li,dl,dd,dt,div,body{
-  padding: 0;
-  margin: 0;
-}
+@import '../common/style/variables.scss'

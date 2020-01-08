@@ -1,0 +1,15 @@
+@import '../../common/style/variables.scss';
+.container {
+  &__deb{
+    width: 100%;
+    height: v(100);
+    margin: v(40) auto;
+    display: flex;
+    align-items: center;
+    justify-content: center;
+    background-color: antiquewhite;
+    span{
+      font-size: v(40);
+    }
+  }
+}

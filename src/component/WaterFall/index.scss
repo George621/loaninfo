@@ -1,0 +1,26 @@
+@import '../../common/style/variables.scss';
+
+.water--fall{
+  width: v(720);
+  box-sizing: border-box;
+  height: 100vh;
+  &__title{
+    line-height: v(40);
+    color: antiquewhite;
+  }
+  &__main{
+    display: flex;
+    flex-direction: row;
+  }
+  &__column{
+    display: flex;
+    flex-direction: column;
+    flex: 1;
+    box-sizing: border-box;
+    padding: 0 v(8);
+    img{
+      margin-bottom: v(5);
+      width: 100%;
+    }
+  }
+}
