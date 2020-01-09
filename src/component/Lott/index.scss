@@ -6,8 +6,54 @@
   width: v(400);
 }
 .lott{
+  margin : v(100);
   width: v(400);
-  height: v(400);
-  border-radius: 50%;
-  background: radial-gradient(circle  ,white 50%,purple 10%,Indigo 10%,blue 10%,green 10%,yellow 10%,orange 10%,red 10%)
+  height: v(200);
+  background: linear-gradient( red ,orange,yellow,green,blue ,Indigo,purple);
+}
+.rainbow{
+  position: absolute;
+  width: v(200);
+  height: v(200);
+  overflow: hidden;
+  div{
+    border-radius: 50%;
+    position: absolute;
+    box-sizing: border-box;
+    top: 50%;
+    left: 50%;
+    transform: translate(-50%, -50%);
+    transform-origin: top;
+  }
+  .r1{
+    width: v(200);
+    height: v(200);
+    border :v(80) solid red;
+    }
+  .r2{
+    border : v(70) solid orange;
+    width: v(180);
+    height: v(180);
+    border-width: v(80);
+  }
+  .r3{
+    border: v(60) solid blue;
+    width: v(160);
+    height: v(160);
+  }
+  .r4{
+    border : v(50) solid green;
+    width: v(140);
+    height: v(140);
+  }
+  .r5{
+    border : v(40) solid purple;
+    width: v(120);
+    height: v(120);
+  }
+  .r6{
+    border : v(60) solid #FFF;
+    width: v(120);
+    height: v(120);
+  }
 }
